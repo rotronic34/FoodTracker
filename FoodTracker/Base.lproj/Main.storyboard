@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="KLu-nj-Qeo">
-                                <rect key="frame" x="0.0" y="46" width="375" height="107.5"/>
+                                <rect key="frame" x="10" y="46" width="365" height="107.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbL-Og-yXS">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -27,8 +27,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W1R-Fc-WU4">
-                                        <rect key="frame" x="0.0" y="32.5" width="375" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name please:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W1R-Fc-WU4">
+                                        <rect key="frame" x="0.0" y="32.5" width="365" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -50,7 +50,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KLu-nj-Qeo" secondAttribute="trailing" id="QIn-3n-1i5"/>
-                            <constraint firstItem="KLu-nj-Qeo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yac-oN-M3L"/>
+                            <constraint firstItem="KLu-nj-Qeo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Yac-oN-M3L"/>
                             <constraint firstItem="KLu-nj-Qeo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="nLu-Cx-7Hb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="106.59670164917542"/>
+            <point key="canvasLocation" x="-302" y="72"/>
         </scene>
     </scenes>
 </document>
